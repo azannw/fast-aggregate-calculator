@@ -13,6 +13,7 @@ interface FormData {
   educationType: EducationType;
 }
 
+
 function App() {
   const [formData, setFormData] = useState<FormData>({
     matricMarks: { obtained: 0, total: 1100 },
