@@ -348,7 +348,7 @@ function App() {
         <div className="max-w-2xl mx-auto mt-8">
           <div className="flex justify-center">
             <a
-              href="#"
+              href="https://chat.whatsapp.com/Cat16toNG2FHVNbSuel3FG"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
