@@ -153,7 +153,7 @@ function App() {
                 </div>
                 {formData.educationType === 'A-Level' && (
                   <p className="text-xs text-indigo-300 italic">
-                    A-Level students receive an additional 10% weightage
+                   
                   </p>
                 )}
               </div>
