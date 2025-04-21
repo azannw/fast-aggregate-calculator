@@ -94,7 +94,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-gray-100">
       <style>{inputStyles}</style>
-            <div className='pt-6 smpt-0 relative'>
+            <div className='pt-[70px] sm:pt-0 relative'>
 
       {/* Header */}
       <header className="bg-gray-800/90 py-4 shadow-lg backdrop-blur-sm fixed top-0 left-0 right-0 z-10 border-b border-gray-700/50">
