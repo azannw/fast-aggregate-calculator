@@ -382,7 +382,7 @@ function App() {
           <div className="flex items-center justify-center gap-3">
             <p className="text-gray-300">© Azan</p>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://linkedin.com/in/azanw"
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-400 hover:text-indigo-300 transition-all duration-300 transform hover:scale-110"
@@ -390,7 +390,7 @@ function App() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/azannw"
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-400 hover:text-indigo-300 transition-all duration-300 transform hover:scale-110"
@@ -409,7 +409,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="https://instagram.com/your-username"
+              href="https://instagram.com/azan.py"
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-400 hover:text-indigo-300 transition-all duration-300 transform hover:scale-110"
