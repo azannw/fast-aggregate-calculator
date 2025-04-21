@@ -222,7 +222,7 @@ function App() {
               <div className="space-y-3">
                 <label className="block text-sm font-medium text-gray-300">Entry Test Type</label>
                 <div className="flex gap-4">
-                  {['NU', 'NAT', 'SAT'].map(type => (
+                  {['NU', 'NAT',].map(type => (
                     <button
                       key={type}
                       onClick={() => handleInputChange('entryTestType', null, type as EntryTestType)}
