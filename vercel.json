@@ -1,5 +1,7 @@
 {
-    "buildCommand": "npx vite build",
-    "outputDirectory": "dist",
-    "cleanUrls": true
-  }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "node node_modules/vite/bin/vite.js build",
+  "outputDirectory": "dist"
+}
