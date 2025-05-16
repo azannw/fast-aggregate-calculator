@@ -317,12 +317,14 @@ function App() {
                       {((formData.entryTestMarks.obtained / formData.entryTestMarks.total) * 100).toFixed(2)}%
                     </span>
                   </div>
-                  {formData.educationType === 'A-Level' && (
-                    // <div className="flex justify-between text-sm">
-                    //   <span className="text-gray-400">A-Level Bonus (10%):</span>
-                    //   <span className="text-green-400 font-medium">Applied</span>
-                    // </div>
-                  )}
+{/*
+  {formData.educationType === 'A-Level' && (
+    <div className="flex justify-between text-sm">
+      <span className="text-gray-400">A-Level Bonus (10%):</span>
+      <span className="text-green-400 font-medium">Applied</span>
+    </div>
+  )}
+*/}
                 </div>
               </div>
 
