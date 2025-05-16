@@ -36,9 +36,9 @@ function App() {
       (fscPercentage * 0.4) + 
       (testPercentage * 0.5);
 
-    if (formData.educationType === 'A-Level') {
-      calculatedAggregate *= 1.1; // 10% increase for A-Level students
-    }
+    // if (formData.educationType === 'A-Level') {
+      // calculatedAggregate *= 1.1; // 10% increase for A-Level students
+    // }
 
     setAggregate(Math.min(100, calculatedAggregate));
     setActiveSection('results');
