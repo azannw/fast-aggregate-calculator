@@ -318,10 +318,10 @@ function App() {
                     </span>
                   </div>
                   {formData.educationType === 'A-Level' && (
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-400">A-Level Bonus (10%):</span>
-                      <span className="text-green-400 font-medium">Applied</span>
-                    </div>
+                    // <div className="flex justify-between text-sm">
+                    //   <span className="text-gray-400">A-Level Bonus (10%):</span>
+                    //   <span className="text-green-400 font-medium">Applied</span>
+                    // </div>
                   )}
                 </div>
               </div>
@@ -330,7 +330,7 @@ function App() {
                 <Info className="h-5 w-5 flex-shrink-0 text-indigo-400" />
                 <p className="text-gray-300">
                   Based on the FAST University admission formula: Matric/O-Level (10%) + {formData.educationType} (40%) + {formData.entryTestType} Entry Test (50%)
-                  {formData.educationType === 'A-Level' && ' with 10% additional weightage for A-Level students.'}
+                  {formData.educationType === 'A-Level'}
                 </p>
               </div>
 
